@@ -1,4 +1,4 @@
-# tap-spec [![NPM version](https://img.shields.io/npm/v/tap-spec.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec) [![NPM download count](https://img.shields.io/npm/dm/tap-spec.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec)
+# tap-spec
 
 Formatted TAP output like Mocha's spec reporter
 
@@ -50,3 +50,7 @@ tape test/index.js | node_modules/.bin/tap-spec
 npm install testling -g
 testling test/index.js | node_modules/.bin/tap-spec
 ```
+
+## License
+
+[MIT](https://github.com/randomgoods/tap-spec/blob/master/LICENSE) (c) 2014 Scott Corgan, 2021 randomgoods and contributors
