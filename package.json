@@ -4,11 +4,14 @@
   "description": "Formatted TAP output like Mocha's spec reporter",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Tests are out of date. Not running until fixed.'"
+    "test:visual:notok": "cat test/fixtures/not-ok.txt | ./bin/cmd.js || true",
+    "test:visual:ok": "cat test/fixtures/ok.txt | ./bin/cmd.js",
+    "test:visual": "npm run test:visual:notok && npm run test:visual:ok",
+    "test": "npm run test:visual"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scottcorgan/tap-spec.git"
+    "url": "https://github.com/randomgoods/tap-spec.git"
   },
   "keywords": [
     "tape",
@@ -17,26 +20,27 @@
     "spec",
     "reporter"
   ],
-  "author": "Scott Corgan",
+  "author": "randomgoods",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scottcorgan/tap-spec/issues"
+    "url": "https://github.com/randomgoods/tap-spec/issues"
   },
   "dependencies": {
-    "chalk": "^1.0.0",
-    "duplexer": "^0.1.1",
-    "figures": "^1.4.0",
-    "lodash": "^4.17.10",
-    "pretty-ms": "^2.1.0",
-    "repeat-string": "^1.5.2",
-    "tap-out": "^2.1.0",
-    "through2": "^2.0.0"
+    "@randomgoods/tap-out": "^3.0.2",
+    "chalk": "^4.1.1",
+    "duplexer": "^0.1.2",
+    "figures": "^3.2.0",
+    "lodash": "^4.17.21",
+    "pretty-ms": "^7.0.1",
+    "repeat-string": "^1.6.1",
+    "tape": "^5.2.2",
+    "through2": "^4.0.2"
   },
   "bin": {
     "tspec": "bin/cmd.js",
     "tap-spec": "bin/cmd.js"
   },
   "devDependencies": {
-    "tapes": "^2.0.0"
+    "tapes": "^4.1.0"
   }
 }

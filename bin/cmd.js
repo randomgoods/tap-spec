@@ -14,6 +14,7 @@ process.on('exit', function (status) {
   }
   
   if (tapSpec.failed) {
+    console.log("tap-spec failed")
     process.exit(1);
   }
 });

@@ -7,7 +7,7 @@ Formatted TAP output like Mocha's spec reporter
 ## Install
 
 ```
-npm install tap-spec --save-dev
+npm install @randomgoods/tap-spec --save-dev
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install tap-spec --save-dev
 
 ```js
 var test = require('tape');
-var tapSpec = require('tap-spec');
+var tapSpec = require('@randomgoods/tap-spec');
 
 test.createStream()
   .pipe(tapSpec())
