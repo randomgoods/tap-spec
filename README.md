@@ -2,6 +2,8 @@
 
 Formatted TAP output like Mocha's spec reporter
 
+> Forked from https://github.com/scottcorgan/tap-spec
+
 ![iterm - 2 bash - may 29 2015 at 10 17 am screen shot](https://cloud.githubusercontent.com/assets/974723/7888261/03366236-05ec-11e5-9f94-d9c2707526b7.png)
 
 ## Install
