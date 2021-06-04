@@ -1,6 +1,6 @@
 {
-  "name": "tap-spec",
-  "version": "5.0.0",
+  "name": "@randomgoods/tap-spec",
+  "version": "5.0.1",
   "description": "Formatted TAP output like Mocha's spec reporter",
   "main": "index.js",
   "scripts": {
