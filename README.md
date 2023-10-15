@@ -55,4 +55,4 @@ testling test/index.js | node_modules/.bin/tap-spec
 
 ## License
 
-[MIT](https://github.com/randomgoods/tap-spec/blob/master/LICENSE) (c) 2014 Scott Corgan, 2021 randomgoods and contributors
+[MIT](https://github.com/randomgoods/tap-spec/blob/master/LICENSE) (c) 2014 Scott Corgan, 2021 - 2023 randomgoods and contributors
